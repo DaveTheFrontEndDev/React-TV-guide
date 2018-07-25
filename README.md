@@ -1,7 +1,7 @@
 ReactJS: TV Guide
 ================
 
-![Example of website](documentation/resources/website-example.png)
+![Example of website](docs/resources/website-example.png)
 
 ## Setup
 
@@ -54,5 +54,5 @@ src/sass - All SASS styles, for structure information see /sass/main.scss
 
 ### Seasons Component
 
-![Example of seasons component](documentation/resources/seasons-component.png)
+![Example of seasons component](docs/resources/seasons-component.png)
 

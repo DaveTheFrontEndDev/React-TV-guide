@@ -1,0 +1,22 @@
+.c-details{
+
+  margin: 10px 0px;
+  overflow:hidden;
+
+  &__header{
+    margin: 32px 0px;
+  }
+
+  &__img{
+    margin: 6px auto 32px auto;
+    display: block;
+    max-width: 300px;
+    object-fit: cover;
+
+    @include breakpoint (medium){
+      float:left;
+      margin-right: 32px;
+    }
+  }
+
+}

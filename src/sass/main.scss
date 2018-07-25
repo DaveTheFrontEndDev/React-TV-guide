@@ -1,0 +1,64 @@
+
+/*
+
+The css methodology being used is BEVM, which is an alteration of the BEM modifier to split it into variation and modifier.
+
+For an example of this, view component/_button.scss
+
+https://www.viget.com/articles/bem-sass-modifiers/
+
+Template used and adapted from https://github.com/simonbingham/sass-bem-template and https://github.com/justcoded/examples-scss-bem-code
+
+Additional directories added based on Harry Robert's namespacing technique:
+- https://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/
+- https://www.smashingmagazine.com/2016/06/battling-bem-extended-edition-common-problems-and-how-to-avoid-them/
+
+ */
+
+/*
+Vendor
+ */
+@import "vendor/normalize";
+
+/*
+Helpers
+ */
+@import
+  "helpers/variables",
+  "helpers/mixins",
+  "helpers/breakpoints";
+
+/*
+Base
+ */
+@import
+  "base/base",
+  "base/typography";
+
+/*
+Blocks (BEVM)
+ */
+@import
+  "blocks/header",
+  "blocks/details",
+  "blocks/button",
+  "blocks/nav",
+  "blocks/main",
+  "blocks/tab",
+  "blocks/table",
+  "blocks/back",
+  "blocks/footer";
+
+/*
+Layouts
+ */
+@import
+  "layout/grid";
+
+/*
+State
+ */
+@import
+  "state/visibility",
+  "state/highlighted";
+

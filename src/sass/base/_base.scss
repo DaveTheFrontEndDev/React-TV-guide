@@ -1,0 +1,17 @@
+body{
+  margin:0px;
+  padding: 0px;
+  background: $color-background;
+}
+
+/**
+Button styles
+ */
+
+button{
+  cursor: pointer;
+}
+
+button:focus {
+  outline:0;
+}

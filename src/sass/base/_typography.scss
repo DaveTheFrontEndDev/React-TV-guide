@@ -1,0 +1,34 @@
+*{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+
+h1{
+  font-size: 32px;
+  font-weight: 600;
+  color: $color-primary-text;
+}
+
+h2{
+  font-size: 1.2rem;
+  height: 1.2rem;
+}
+
+h1, h2, h3, h4{
+  //font-weight: 300;
+}
+
+p{
+  line-height: 1.6;
+}
+
+a{
+ color: $color-secondary-highlight;
+  &:hover{
+    color: $color-highlight
+  }
+}
+
+button{
+  font-weight: 400;
+}

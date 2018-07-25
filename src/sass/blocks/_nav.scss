@@ -1,0 +1,34 @@
+.c-nav{
+
+  &__link{
+    margin: 0px 32px;
+    height: 81px;
+    display: block;
+    text-align: center;
+    @include breakpoint(medium) {
+      display: inline-block;
+      width: auto;
+      text-align: left;
+    }
+  }
+
+  &__button{
+    height: 81px;
+    font-size: 16px;
+    width: 100%;
+    @include breakpoint(medium) {
+      width: auto;
+    }
+
+    &:hover, &:focus{
+      color: $color-primary-text-highlight;
+    }
+
+  }
+
+  @include breakpoint(medium) {
+    vertical-align: top;
+    display: inline-block;
+  }
+
+}

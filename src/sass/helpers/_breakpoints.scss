@@ -1,0 +1,16 @@
+/*
+Media query mixin
+ */
+
+$breakpoints: (
+        'small': 0px,
+        'medium': 800px,
+        'large': 992px,
+        'huge': 1200px,
+);
+
+@mixin breakpoint ($size) {
+  @media (min-width: #{map-get( $breakpoints, $size )}) {
+    @content;
+  }
+}

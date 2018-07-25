@@ -1,0 +1,17 @@
+$main-bottom-margin: 64px;
+
+.c-main{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 10px 64px $main-bottom-margin 64px;
+  //height: 200vh;
+
+  @include breakpoint (medium){
+    margin: 10px 15% $main-bottom-margin 15%;
+  }
+
+  @include breakpoint (huge){
+    margin: 10px 25% $main-bottom-margin 25%;
+  }
+}

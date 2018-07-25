@@ -1,0 +1,20 @@
+.c-table{
+  width: 100%;
+  border-collapse: collapse;
+
+  &__head{
+    text-align: left;
+  }
+
+  tr{
+    height: 50px;
+    border-bottom: 1px solid $color-table-border;
+    &:last-child{
+      border: none;
+    }
+  }
+
+  td,th{
+    padding: 5px;
+  }
+}

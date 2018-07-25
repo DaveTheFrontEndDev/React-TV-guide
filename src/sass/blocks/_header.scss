@@ -1,0 +1,21 @@
+
+.c-header {
+  position: relative;
+  background: $color-primary;
+  border: 1px solid $color-secondary;
+  color: $color-secondary-text;
+  padding: 0px 32px;
+
+  &__svg {
+    position: relative;
+    display: inline-block;
+    height: 81px;
+    padding: 15px 0px;
+    margin-right: 32px;
+    box-sizing: border-box;
+    @include breakpoint (medium){
+      display: inline-block;
+      width: auto;
+    }
+  }
+}

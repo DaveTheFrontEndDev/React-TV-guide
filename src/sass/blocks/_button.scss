@@ -1,0 +1,39 @@
+.c-button{
+
+  background: none;
+  border: none;
+  padding: 10px;
+  box-sizing: border-box;
+
+  &--primary{
+    @extend .c-button;
+    background: $color-primary;
+    color: $color-secondary-text;
+
+    &:hover{
+      color: $color-primary-text-highlight;
+    }
+
+  }
+
+  &--secondary{
+
+    @extend .c-button;
+    background: $color-background;
+    color: $color-primary-text;
+
+    &:hover{
+      border-bottom: 3px solid $color-primary-text;
+    }
+
+    &.-active{
+      color: $color-highlight;
+      border-bottom: 3px solid $color-highlight;
+      &:hover{
+        border-bottom: 3px solid $color-highlight;
+      }
+    }
+
+  }
+
+}

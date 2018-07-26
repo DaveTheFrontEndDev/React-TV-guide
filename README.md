@@ -42,13 +42,14 @@ src/reducers - Redux reducers
 src/sass - All SASS styles, for structure information see /sass/main.scss
 ```
 
-## What I would change
+## What I would like to change / TODOs
 
 - Directories would be more modular with [domain driven design](https://medium.com/@hassan.djirdeh/domain-driven-react-redux-a474ecf7d126).
 - Sass files could be included in each component directory to make them easier to locate.
 - A service for http requests would keep requests consistent and could potentially manage other information (like authentication and default headers).
+- Better handling of loading. The application needs to handle the loading of data in the front-end. For example, when you load episode information, the episode is '0' for a brief moment because it doesn't have the information. An example where this has been handled can be seen in [this project](https://github.com/MrVann/React-Mongo-Recipe-App/blob/master/src/recipe/recipe/RecipeContainer.js).
 
-> This has been added in a later project.
+> This has been added in a [later project](https://github.com/MrVann/React-Mongo-Recipe-App).
 
 ## More examples
 
